@@ -1,0 +1,100 @@
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25%, 75% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+}
+
+#login-form {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#greeting {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#login-form input {
+    width: 150px;
+}
+
+#login-form input[type="submit"] {
+    width: 50px;
+}
+
+#clock {
+    font-size: 75px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#todo-form {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#todo-form input {
+    width: 200px;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#quote {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#weather {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-size: 15px;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
